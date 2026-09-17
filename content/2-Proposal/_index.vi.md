@@ -85,7 +85,7 @@ Hạ tầng cần giải quyết các yêu cầu sau:
 
 ### 3.1. Sơ đồ kiến trúc tổng thể
 
-![Sơ đồ kiến trúc](/images/myimage/sodo1.png)
+![Sơ đồ kiến trúc](/Workshop-template/images/myimage/sodo1.png)
 
 ### 3.2. Thành phần kiến trúc
 
