@@ -9,31 +9,29 @@ pre: "<b> 1.12 </b>"
 
 ### Week 12 Objectives:
 
-* Consolidate and apply the AWS knowledge gained throughout the internship to deploy an AI-powered Web Chat application.
-* Design a suitable AWS-based system architecture for the project requirements.
-* Deploy the Frontend using Amazon S3 and Amazon CloudFront for content delivery.
-* Build the Backend API using Amazon API Gateway and AWS Lambda.
-* Use Amazon DynamoDB to store user information, AI characters, and conversation history.
-* Integrate Amazon Bedrock to implement the AI Virtual Friend functionality.
-* Use Amazon CloudWatch to monitor system activity and performance.
-* Optimize the system to reduce operating costs and improve response time.
+* Learn about Amazon Elastic IP and the use of static IP addresses for EC2 instances.
+* Study the Security Group design between the Application Load Balancer and EC2 instances in a Target Group.
+* Learn how IAM Roles grant EC2 access to AWS services without storing access keys on the server.
+* Research Amazon CloudWatch Agent, CloudWatch Logs, Log Groups, and Log Streams for collecting logs from multiple EC2 instances.
+* Learn about Amazon S3 data-protection features, including Block Public Access, encryption, Versioning, and Lifecycle Rules.
+* Consolidate the required AWS services and prepare a phased infrastructure implementation plan for the project.
 
 ### Tasks to be completed this week:
 
 | Day | Task | Start Date | Completion Date | Resources |
 | --- | ---- | ---------- | --------------- | --------- |
-| 2 | Analyze requirements and design the AWS architecture for the AI-powered Web Chat application | 05/10/2026 | 05/10/2026 | https://cloudjourney.awsstudygroup.com |
-| 3 | Deploy the Frontend using Amazon S3 and configure CloudFront | 06/10/2026 | 06/10/2026 | https://cloudjourney.awsstudygroup.com |
-| 4 | Build APIs using API Gateway and Lambda, and store data using DynamoDB | 07/10/2026 | 08/10/2026 | https://cloudjourney.awsstudygroup.com |
-| 5 | Integrate Amazon Bedrock to implement the AI Virtual Friend functionality | 09/10/2026 | 09/10/2026 | https://cloudjourney.awsstudygroup.com |
-| 6 | Test the system, monitor it using CloudWatch, and optimize cost and performance | 10/10/2026 | 10/10/2026 | https://cloudjourney.awsstudygroup.com |
+| 2 | Learn how to allocate, associate, and release an Elastic IP for EC2 | 05/10/2026 | 05/10/2026 | https://docs.aws.amazon.com/AWSEC2/ |
+| 3 | Study Security Groups for ALB and EC2 and restrict traffic between the components | 06/10/2026 | 06/10/2026 | https://docs.aws.amazon.com/elasticloadbalancing/ |
+| 4 | Learn about IAM Roles, Instance Profiles, and least-privilege permissions for EC2 | 07/10/2026 | 07/10/2026 | https://docs.aws.amazon.com/IAM/ |
+| 5 | Research the CloudWatch Agent and the organization of Log Groups and Log Streams for multiple EC2 instances | 08/10/2026 | 08/10/2026 | https://docs.aws.amazon.com/AmazonCloudWatch/ |
+| 6 | Learn about Block Public Access, encryption, Versioning, and Lifecycle Rules in Amazon S3 | 09/10/2026 | 09/10/2026 | https://docs.aws.amazon.com/s3/ |
+| 7 | Consolidate the findings and plan how to apply the AWS services during each project phase | 10/10/2026 | 10/10/2026 | https://docs.aws.amazon.com/ |
 
 ### Week 12 Achievements:
 
-* Completed the basic architecture for an AI-powered Web Chat application on AWS.
-* Successfully deployed the Frontend using Amazon S3 and CloudFront.
-* Built the Backend API using API Gateway and AWS Lambda.
-* Used DynamoDB to store user information and conversation history.
-* Integrated Amazon Bedrock to implement the AI Virtual Friend functionality.
-* Used CloudWatch to monitor system activities.
-* Performed optimization to reduce operating costs and improve application performance.
+* Understood the purpose, association process, and cost considerations of using Elastic IP with EC2.
+* Defined the Security Group rules required for the ALB to route requests to EC2 without exposing unnecessary ports.
+* Understood how IAM Roles provide temporary credentials to EC2 and reduce the risks associated with long-term access keys.
+* Learned how the CloudWatch Agent sends logs from multiple EC2 instances to CloudWatch Logs and separates their sources with Log Streams.
+* Understood how Block Public Access, encryption, Versioning, and Lifecycle Rules protect and manage backup data in S3.
+* Completed the AWS research notes and implementation plan for the following project weeks.

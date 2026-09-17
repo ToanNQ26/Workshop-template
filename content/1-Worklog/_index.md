@@ -36,6 +36,6 @@ The internship worklog is divided into weekly sections. Each week focuses on lea
 
 **Week 11:** [Performance Optimization with Amazon ElastiCache](1.11-week11/)  
 
-**Week 12:** [Building and Deploying an AI-Integrated Web Chat System on AWS](1.12-week12/)  
+**Week 12:** [Researching Technologies for Deploying the Comic Website on AWS](1.12-week12/)  
 
 ---

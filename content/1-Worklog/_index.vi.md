@@ -36,6 +36,6 @@ Nhật ký công việc trong quá trình thực tập được chia theo từng
 
 **Tuần 11:** [Tối ưu hiệu năng với Amazon ElastiCache](1.11-week11/)  
 
-**Tuần 12:** [Xây dựng và triển khai hệ thống Web Chat tích hợp AI trên AWS](1.12-week12/)  
+**Tuần 12:** [Nghiên cứu các công nghệ phục vụ triển khai Web Truyện Tranh trên AWS](1.12-week12/)  
 
 ---
